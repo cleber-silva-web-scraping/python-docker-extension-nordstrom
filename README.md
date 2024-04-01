@@ -6,6 +6,17 @@ When the process starts I receive a message on Telegram, and when the process is
 
 This process runs once a week.
 
+# The problem
+
+The site blocks every X requests
+
+# Solution
+When the site is blocked I run a browser where I reload all the cookies, get new cookies and send them to process to continue without a browser.
+
+For this solution I implemented a Docker image with a GUI where I can open a real browser.
+
+This process doesn't work with Selenium so I created an extension to get all the data I need.
+
 
 # How to run
 

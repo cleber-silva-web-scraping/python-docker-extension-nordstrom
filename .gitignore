@@ -1,0 +1,4 @@
+.env
+toDo.txt
+out/
+.venv/
